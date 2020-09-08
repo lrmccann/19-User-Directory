@@ -34,10 +34,10 @@ function TableHeader(props) {
     return (
         <tbody>
             <tr>
-                <th key="ID" onClick={() => reqSort('id')}>ID</th>
-                <th key="NAME" onClick={() => reqSort('name')}>NAME</th>
-                <th key="DEPARTMENT" onClick={() => reqSort('department')}>DEPARTMENT</th>
-                <th key="EMAIL" onClick={() => reqSort('email')}>EMAIL</th>
+                <th key="ID" style={{fontFamily: "Times New Roman, Times, serif"}} onClick={() => reqSort('id')}>ID</th>
+                <th key="NAME" style={{fontFamily: "Times New Roman, Times, serif"}} onClick={() => reqSort('name')}>NAME</th>
+                <th key="DEPARTMENT" style={{fontFamily: "Times New Roman, Times, serif"}} onClick={() => reqSort('department')}>DEPARTMENT</th>
+                <th key="EMAIL" style={{fontFamily: "Times New Roman, Times, serif"}} onClick={() => reqSort('email')}>EMAIL</th>
             </tr>
             <TableData employees={employees} />
         </tbody>

@@ -12,6 +12,7 @@ class Table extends Component {
         return (
             <div>
                 <h4 id='title'>Employee Table</h4>
+                <div className="line"></div>
                 <TableFilter
                 state={this.state}
                 />

@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import TableHeader from "../TableHeader";
 import Row from "../Row";
 import Col from "../Col";
-import { Button} from "react-bootstrap";
+import { Button } from "react-bootstrap";
 
 
 
@@ -14,7 +14,7 @@ const TableFilter = (props) => {
     const [searchInput, setSearchInput] = useState({ value: '', search: '' });
 
     const handleInputChange = event => {
-        setSearchInput({ search: event.target.value, value: 'department'});
+        setSearchInput({ search: event.target.value, value: 'department' });
         console.log(searchInput.search);
     };
 
@@ -35,25 +35,14 @@ const TableFilter = (props) => {
             {/* <form onSubmit={handleFormFilter}> */}
             <Row>
                 <Col size="md-8">
-                    <input
+                    <input style={{height: "35px", fontFamily: "Times New Roman, Times, serif"}}
                         value={searchInput.search}
                         type="text"
                         id="fieldInput"
                         onChange={handleInputChange}
                         placeholder="filter by department"
                     ></input>
-                </Col>
-
-                {/* <DropdownButton id="dropdown-field" title="Select Field" onClick={handleFieldChange}>
-                    <Dropdown.Item value="id" >Id</Dropdown.Item>
-                    <Dropdown.Item value="name" >Name</Dropdown.Item>
-                    <Dropdown.Item value="department" >Department</Dropdown.Item>
-                    <Dropdown.Item value="email" >Email</Dropdown.Item>
-                </DropdownButton> */}
-
-
-                <Col size="md">
-                    <Button variant="success" onClick={handleFormFilter}>Filter</Button>
+                    <Button style={{ marginLeft: "1%", height: "40px", marginBottom: "1%", fontFamily: "Times New Roman, Times, serif" }} onClick={handleFormFilter}>Filter</Button>
                 </Col>
             </Row>
             {/* </form> */}

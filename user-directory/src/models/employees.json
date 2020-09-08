@@ -1,44 +1,44 @@
 [
     {
         "id": 1,
-        "name": "Gill Guntherson",
-        "department": "finance",
-        "email": "Gill@email.com"
+        "name": "Logan McCann",
+        "department": "Tech",
+        "email": "lrmccann@hotmail.com"
     },
     {
         "id": 2,
-        "name": "Phillip Patterson",
-        "department": "finance",
-        "email": "Phillip@email.com"
+        "name": "Mia Skwiot",
+        "department": "PR",
+        "email": "MiaS@hotmail.com"
     },
     {
         "id": 3,
-        "name": "Ed Sands",
-        "department": "marketing",
-        "email": "Ed@email.com"
+        "name": "Bernie",
+        "department": "POTUS",
+        "email": "FeelTheBern@hotmail.com"
     },
     {
         "id": 4,
-        "name": "Nancy Rodriguez",
-        "department": "marketing",
-        "email": "Nancy@email.com"
+        "name": "Lisa Peithmann",
+        "department": "Drankin",
+        "email": "LGPeithmann@hotmail.com"
     },
     {
         "id": 5,
-        "name": "Pablo Sanchez",
-        "department": "engineer",
-        "email": "Pablo@email.com"
+        "name": "Raven",
+        "department": "Sales",
+        "email": "RavenBirdMan@hotmail.com"
     },
     {
         "id": 6,
-        "name": "Nancy Rodriguez",
-        "department": "marketing",
-        "email": "Nancy@email.com"
+        "name": "Ricky",
+        "department": "Dad",
+        "email": "16-yo-dad@gmail.com"
     },
     {
         "id": 7,
-        "name": "Pablo Sanchez",
-        "department": "engineer",
-        "email": "Pablo@email.com"
+        "name": "Micheal Scott",
+        "department": "GM",
+        "email": "MichealDunder@gmail.com"
     }
 ]

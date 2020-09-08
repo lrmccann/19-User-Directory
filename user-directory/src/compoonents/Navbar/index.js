@@ -4,9 +4,9 @@ import "./style.css";
 
 function Navbar(props) {
     return (
-        <nav className="navbar navbar-expand-lg navbar-light bg-light">
+        <nav className="navbar navbar-expand-lg navbar-light">
             <Link className="navbar-brand m-auto" to="/">
-                AmaZing Employee Directory!
+                <h5 style={{fontFamily: "Times New Roman, Times, serif"}} className="text">Employee Directory</h5>
         </Link>
             <div>
                 <ul className="navbar-nav">
@@ -15,7 +15,7 @@ function Navbar(props) {
                             window.location.pathname === "/" || window.location.pathname === "/home" ? "nav-link active" : "nav-link"
                             }
                         >
-                            Directory
+                            <h5 className="text" style={{fontFamily: "Times New Roman, Times, serif"}}>Directory</h5>
                         </Link>
                     </li>
                   

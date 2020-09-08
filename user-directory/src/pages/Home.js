@@ -1,7 +1,7 @@
 import React from "react";
-import Container from  "../components/Container";
-import Row from "../components/Row";
-import Table from "../components/EmployeeTable"
+import Container from  "../compoonents/Container";
+import Row from "../compoonents/Row";
+import Table from "../compoonents/EmployeeTable";
 
 function Home() {
     return(

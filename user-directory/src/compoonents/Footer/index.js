@@ -4,8 +4,7 @@ import "./style.css";
 function Footer() {
     return (
         <footer className="footer text-center">
-            <span>AmaZing Employee Directory!
-            </span>
+            <span className="text">Employee Directory -Logan</span>
         </footer>
     )
 }
